@@ -1,0 +1,8 @@
+# Project Instructions
+
+- The application source is in `smart_resume_analyzer/` beneath this workspace. The Streamlit entry point is `smart_resume_analyzer/app.py`; analysis and scoring logic live in `smart_resume_analyzer/analyzer.py`.
+- From the workspace root, run the app with `./smart_resume_analyzer/venv/Scripts/python.exe -m streamlit run ./smart_resume_analyzer/app.py` (PowerShell accepts these paths). Install dependencies with that same interpreter using `-m pip install -r ./smart_resume_analyzer/requirements.txt`.
+- Keep UI changes in `app.py` and analysis, skill matching, scoring, recommendations, and SQLite history changes in `analyzer.py`. Preserve the current analysis result keys and scoring weights unless the task explicitly changes the public behavior.
+- Semantic matching uses `sentence-transformers` when available and falls back to TF-IDF. Keep the fallback usable and avoid making network-dependent model loading a requirement for basic operation.
+- Resume text and analysis history can contain personal information. Do not expose or copy their contents into logs, tests, or documentation. Treat `resume_history.db` as runtime data; do not modify or remove it as part of unrelated work.
+- Dependencies are listed in `smart_resume_analyzer/requirements.txt`. No test suite is documented; use focused checks, and at minimum run Python syntax validation on changed modules with the project interpreter.

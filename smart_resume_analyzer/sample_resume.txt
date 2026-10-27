@@ -1,0 +1,35 @@
+JANE DOE
+jane.doe@email.com | +91-9876543210 | linkedin.com/in/janedoe | github.com/janedoe
+
+SUMMARY
+Software engineer with 3 years of experience building scalable web applications using Python and React. Passionate about clean code and solving complex problems.
+
+EXPERIENCE
+
+Software Engineer — TechCorp Pvt Ltd (2022 – Present)
+• Developed RESTful APIs using Python (FastAPI) serving 200K+ daily requests
+• Reduced API latency by 35% through caching with Redis
+• Built CI/CD pipelines using GitHub Actions, cutting deployment time by 50%
+• Collaborated with a team of 6 engineers in an agile environment
+
+Junior Developer — StartupXYZ (2021 – 2022)
+• Built frontend components using ReactJS and TypeScript
+• Integrated third-party APIs and managed PostgreSQL databases
+• Participated in daily scrum ceremonies
+
+EDUCATION
+B.Tech in Computer Science — VTU, Bangalore (2017–2021) | CGPA: 8.4
+
+SKILLS
+Languages: Python, JavaScript, TypeScript, SQL, Bash
+Frameworks: FastAPI, Django, React, Node.js
+Databases: PostgreSQL, MongoDB, Redis
+Tools: Docker, Git, GitHub Actions, Linux, Postman
+Cloud: AWS (EC2, S3, Lambda)
+
+PROJECTS
+E-Commerce Platform — Built full-stack e-commerce app with payment integration
+API Gateway — Designed microservices architecture handling 1M requests/day
+
+CERTIFICATIONS
+AWS Certified Developer – Associate (2023)
